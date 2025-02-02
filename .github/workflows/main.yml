@@ -1,3 +1,9 @@
+on:
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: 'Choose where you want to publish the build'
+
 jobs:
   test:
     steps:
